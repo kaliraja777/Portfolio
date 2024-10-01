@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+main {
+  overflow: hidden;
+  margin-bottom: 100px; /* Prevent footer overlap */
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+main {
+  min-height: 100vh; /* Fixes main content spacing */
+  display: flex;
+  flex-direction: column;
+}
